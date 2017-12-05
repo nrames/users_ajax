@@ -1,0 +1,26 @@
+<h1 class="center">Welcome the User View</h1>
+
+<div class="center">
+  <button id="new" class="btn">View Users</button>
+</div>
+<hr />
+<div class="row">
+  <div class="col s12 m6">
+    <ul id="users">
+    </ul>
+  </div>
+</div>
+
+<div>
+  <p>First Name</p>
+  <input type=‘text’ id=‘first_name’/>
+  <br />
+  <p>Last Name</p>
+  <input type=‘text’ id=‘last_name’/>
+  <br />
+  <p>Phone Number</p>
+  <input type='text' id='phone_number'/>
+  <br/>
+  <button id='button' class='btn'>Create New User</button>
+  <%= link_to 'Back', root_path, class: "users btn" %>
+</div>
